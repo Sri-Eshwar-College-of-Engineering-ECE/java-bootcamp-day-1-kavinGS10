@@ -1,16 +1,16 @@
 
 class BankAccount {
-    // Instance variable
+    
     int balance;
 
-    // Constructor
+   
     BankAccount(int balance) {
         this.balance = balance;
     }
 
-    // Method using local variable
+    
     void deposit() {
-        int depositAmount = 2000; // Local variable
+        int depositAmount = 2000; 
         balance = balance + depositAmount;
 
         System.out.println("Current Balance: 10000");
