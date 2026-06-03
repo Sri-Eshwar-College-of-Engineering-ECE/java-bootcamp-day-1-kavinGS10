@@ -1,16 +1,13 @@
 
 class Circle {
-    // Instance variable
+    
     int radius;
 
-    // Constructor
-    Circle(int radius) {
+      Circle(int radius) {
         this.radius = radius;
     }
-
-    // Method using local variable
     void calculateArea() {
-        double pi = 3.14; // Local variable
+        double pi = 3.14; 
         double area = pi * radius * radius;
 
         System.out.println("Radius = " + radius);
